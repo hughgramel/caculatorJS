@@ -63,6 +63,7 @@ button, div {
 
 .display {
     background-color: azure;
+    overflow: hidden;
     font-size: 50px;
     vertical-align: text-bottom;
     padding-top: 30px;
