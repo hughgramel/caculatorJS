@@ -1,4 +1,112 @@
+
+
+
 button, div {
     font-family: 'Courier New', Courier, monospace;
     font-size: 24px;
+}
+
+.center-div {
+    background-color: rgb(168, 168, 168);
+    border-radius: 15px;
+    position:fixed;
+    transform: translate(-50%, -50%);
+    -webkit-transform: (-50%, -50%);
+    width: 370px;
+    height: 500px;
+    border: 1px solid black;
+    top: 50%;
+    left: 50%;
+    padding: 10px;
+
+}
+
+.clear {
+    display: inline-block;
+    background-color: beige;
+    border-radius: 10px;
+
+    height: 12%;
+    width: 35%;
+    padding: 0px;
+    margin: 5px;
+    margin-left: 0px;
+}
+
+.percentage, .toggle-neg {
+    display: inline-block;
+    background-color: beige;
+    border-radius: 10px;
+    margin-left: 2px;
+    height: 12%;
+    width: 24%;
+    padding: 3px;
+}
+
+
+
+.number, .operator, .equals {
+    display: inline-block;
+    background-color: beige;
+    border-radius: 10px;
+    margin-left: 1px;
+    margin-right: 1px;
+    height: 14%;
+    width: 20%;
+
+}
+
+.mult, .equals, .zero {
+    margin-top: 4px;
+    width: 28%;
+}
+
+.display {
+    background-color: azure;
+    font-size: 50px;
+    vertical-align: text-bottom;
+    padding-top: 30px;
+    margin-bottom: 20px;
+    height: 11%;
+    border-radius: 15px;
+    text-align: right;
+}
+
+.flexbox-container-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.flexbox-container-inside {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-grow: 1;
+}
+
+.flexbox-container-inside-mian {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+    flex-basis: 1;
+    flex-grow: 2;
+}
+
+.flexbox-container {
+    display: flex;
+    justify-content: space-between;
+    flex-basis: 0;
+
+    flex-grow: 1;
+    flex-shrink: 1;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 50px;
+    border: 2px solid black;
+}
+
+.center-container {
+    flex-grow: 1;
+
 }
